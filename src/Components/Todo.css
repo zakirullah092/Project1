@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body {
+    background-color: #e4e5f1;
+}
+
+.main {
+    width: 100vw;
+    height: 300px; 
+    background-size: 100% 100%; /* Cover the entire container */
+    background-position: center; /* Center the background image */
+    background-repeat: no-repeat;
+}
+
+
+.container {
+    width: 80vw;
+    height: auto;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.mainH1 {
+    text-align: left;
+    color: white;
+    font-size: 60px;
+    word-spacing: 20px;
+    font-weight: 600;
+    align-self: flex-start;
+    padding-top: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 30px;
+}
+
+.containerAddTask {
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    background-color: white;
+    padding: 14px;
+}
+
+.containerAddTask input {
+    border: none;
+    text-align: left;
+    font-size: 20px;
+    float: left;
+    padding-top: 5px;
+    width: calc(100% - 40px); /* Adjusted width */
+}
+
+.containerAddTask button {
+    float: right;
+    background-color: transparent; /* Adjusted background */
+    border: none;
+    cursor: pointer;
+    padding: 0;
+}
+
+.form__send-icon {
+    width: 24px; /* Adjusted width */
+    height: 24px; /* Adjusted height */
+}
+
+.emptyH3, .listItem, .itemsUl p {
+    width: 100%;
+    padding: 14px;
+    background-color: white;
+    margin: 4px;
+    border-radius: 5px;
+    color: rgb(177, 174, 174);
+    font-weight: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+.containerAddTask input:focus {
+    outline: none; 
+    border: none; 
+}
+
+.itemsUl {
+    list-style: none;
+    width: 100%;
+}
+
+.listItem {
+    width: 100%;
+    float: left;
+}
+
+.listItem img {
+    cursor: pointer;
+    width: 20px;
+    height: 20px;
+    margin-left: 10px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    color: #777a92;
+    background-color: white;
+    width: 100%;
+    border-radius: 5px;
+    margin-left: 5px;
+}
+
+.complete {
+    cursor: pointer;
+}
+
+.bottomBtns {
+    width: 80vw;
+    padding: 14px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    border-radius: 5px;
+    margin-left: 5px;
+}
+
+.bottomBtns button {
+    border: none;
+    background-color: white;
+    font-weight: 700;
+    font-size: 18px;
+    color: lightslategray;
+    margin-left: 10px;
+}
+
+/* Additional CSS for task content */
+.taskContent {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.taskText {
+    float: left;
+    width: 80px;
+}
+.taskText input{
+    margin-right: 5px;
+}
