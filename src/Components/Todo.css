@@ -149,7 +149,7 @@ body {
 
 .taskText {
     float: left;
-    width: 80px;
+    width: auto;
 }
 .taskText input{
     margin-right: 5px;
